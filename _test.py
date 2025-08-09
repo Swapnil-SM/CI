@@ -21,7 +21,8 @@ def test_square():
 def test_cube():
     assert cube(2) == 8, "Test Failed: Cube of 2 should be 8"
     assert cube(3) == 27, "Test Failed: Cube of 3 should be 27"
-
+    
+#in testing, assert is used to automatically verify that your function gives the expected output.
 # Testing the fifth power function
 def test_fifth_power():
     assert fifth_power(2) == 32, "Test Failed: Fifth power of 2 should be 32"
